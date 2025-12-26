@@ -1,0 +1,9 @@
+<suite name="Playwright Test Suite">
+	<test name="Basic Test Execution" invocation-count="5"
+		thread-count="2">
+		<classes>
+			<excludeclass name="org.tests.FirstTest" />
+			<class name="org.tests.LoginTest2" />
+		</classes>
+	</test>
+</suite>
